@@ -1,0 +1,48 @@
+div{
+	border-collapse: collapse; 
+	text-align: center;
+	padding: 10px;
+	height: 100%;
+	margin: auto;
+	font-size: 20px;
+	color: black;
+}
+
+body{
+	background-size: 100%;
+	background: center no-repeat cover;
+}
+
+html,body{
+	padding: 0;
+	margin: 0;
+	height: 250px;
+}
+
+.name{
+	margin-top: 35px;
+	font-size: 2.5em;
+	padding: 10px;
+}
+
+.weather{
+	height: 100%;
+	padding: 20px;
+	margin-top: 30px;
+	font-size: 2em;
+}
+
+.map,.col-xs-6{
+	border: 2px dashed;
+	border-radius: 30px;
+}
+
+#cloud-icon{
+	height: 10px;
+}
+
+.cloud{
+	margin-top: 36px;
+    height: auto;
+    font-size: 2em;
+}

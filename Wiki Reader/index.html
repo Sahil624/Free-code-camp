@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+
+var url = 'http://en.wikipedia.org/w/api.php?action=parse&page=google&prop=text&format=json&callback=?';
+//url = 'http://en.wikipedia.org/w/api.php?action=parse&titles=google&prop=text&format=json&callback=?';
+
+(function() {
+  $.getJSON( url, {
+  /*"action": "query",
+	"format": "json",
+	"prop": "revisions",
+	"titles": "Sahil",
+	"rvprop": "content",
+	"Access-Control-Allow-Credentials": "true"*/
+  })
+    .done(function( data ) {
+    	//putWeather(data,unit);
+    	console.log(url);
+      console.log(data);
+    });
+})();
+/*
+  $.getJSON('http://en.wikipedia.org/w/api.php?action=parse&page=google&prop=text&format=json&callback=?', function(json) {
+   /* $('#wikiInfo').html(json.parse.text.*);
+    $("#wikiInfo").find("a:not(.references a)").attr("href", function(){ return "http://www.wikipedia.org" + $(this).attr("href");});
+    $("#wikiInfo").find("a").attr("target", "_blank");
+    console.log(json);
+  });*/
+	
+</script>
+</body>
+</html>

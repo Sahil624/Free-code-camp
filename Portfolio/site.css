@@ -1,0 +1,97 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+a:link{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+a:link:hover{
+	font-size: 80px;
+}
+
+html,body{
+	margin:0;
+	padding: 0;
+}
+
+h1{
+	font-size: 4em;
+	margin-bottom: 5%;
+}
+
+.home , .portfolio , .contact{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #41cccc;
+}
+
+h2{
+	margin-top: 5%;
+}
+
+
+.job-bar{
+	margin-top: 10%;
+	border:5px solid gray;
+	border-radius: 30px;
+}
+
+.line{
+	margin-top: 5%;
+	width: 80%;
+	height: 1%;
+	background-color: gray;
+	margin-left: 10%;
+}
+
+.job{
+	font-size: 2em;
+	color: gray;
+	border-right: 5px solid gray;
+}
+
+.job:nth-of-type(3){
+	border-right:none;
+}
+
+img{
+	width: 20%;
+	height: 20%;
+}
+
+.more{
+	margin-top: 15%;
+}
+
+.cntr{
+	margin-top: 10%;
+}
+
+input{
+	width: 100%;
+}
+
+.linehr{
+	width: 1%;
+	height: 100%;
+	background-color: gray;
+}
+
+.frm{
+	background-color: rgba(0,0,0,.1);
+}
+
+.msg{
+	font-size: 4em;
+	text-align: center;
+}
