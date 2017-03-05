@@ -1,0 +1,26 @@
+img{
+	max-width: 150px;
+	max-height: 100px;
+}
+
+.ch{
+	margin:10px;
+	margin-top: 40px;
+	padding: 15px;
+}
+
+.on{
+	background: rgba(0,255,0,.3);
+}
+
+.off{
+	background: rgba(255,0,0,.3);
+}
+
+.ch:hover{
+	box-shadow: 0px 0px 10px black;
+}
+
+body{
+	background: lightgray;
+}
