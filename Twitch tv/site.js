@@ -14,13 +14,11 @@ $.ajax({
 	success:function(data){
 		channelobj.push(data);
 		if (data["stream"]){
-		$(".result").append('<div class="row on ch"><div class="col-md-4"><img class="img-responsive" src="'+data["stream"]["channel"]["logo"]+'"></div>'+'<div class="col-md-4">'+data["stream"]["channel"]["display_name"]+'</div><div class="col-md-4">'+data["stream"]["channel"]["status"]+'</div></div>')
+		$(".result").append('<a href="' + data["stream"]["channel"]["url"] + '"><div class="row on ch"><div class="col-md-4"><img class="img-responsive" src="'+data["stream"]["channel"]["logo"]+'"></div>'+'<div class="col-md-4">'+data["stream"]["channel"]["display_name"]+'</div><div class="col-md-4">'+data["stream"]["channel"]["status"]+'</div></div></a>')
 
 }
 	else{
-		$(".result").append('<div class="row off ch"><div class="col-md-4"><img class="img-responsive" src="https://i.ytimg.com/vi/l9Grl4b8b54/hqdefault.jpg"></div>'+'<div class="col-md-4">'+channels[ind]+'</div><div class="col-md-4">Offline</div></div>');
-		// console.log("nope"+" ---->"+i);
-		// console.log(channels[ind]);
+		$(".result").append('<a href="https://www.twitch.tv/' + channels[ind] + '"><div class="row off ch"><div class="col-md-4"><img class="img-responsive" src="https://i.ytimg.com/vi/l9Grl4b8b54/hqdefault.jpg"></div>'+'<div class="col-md-4">'+channels[ind]+'</div><div class="col-md-4">Offline</div></div></a>');
 	}
 	ind++;
 	}
