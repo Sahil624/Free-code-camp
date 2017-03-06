@@ -19,17 +19,13 @@ $.ajax({
 }
 	else{
 		$(".result").append('<div class="row off ch"><div class="col-md-4"><img class="img-responsive" src="https://i.ytimg.com/vi/l9Grl4b8b54/hqdefault.jpg"></div>'+'<div class="col-md-4">'+channels[ind]+'</div><div class="col-md-4">Offline</div></div>');
-		console.log("nope"+" ---->"+i);
-		console.log(channels[ind]);
+		// console.log("nope"+" ---->"+i);
+		// console.log(channels[ind]);
 	}
 	ind++;
 	}
 });
 }
-//document.write(channelobj[1]);
-// document.write('<img class="img-responsive" src="'+channelobj[7]["streams"]["logo"]+'">');
-// for(var i=0;i<channelobj.length;i++){
-// 	$(".result").append('<div class="col-md-4"><img class="img-responsive" src="'+channelobj[i]["streams"]["logo"]+'"></div>')
-// }
+
 
  	console.log(channelobj);
