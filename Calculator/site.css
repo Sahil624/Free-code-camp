@@ -1,0 +1,50 @@
+.calc{
+	margin: auto;
+	margin-top: 10%;
+	width: 80%;
+}
+
+p{
+	font-size: 1.5em;
+	padding: 10px;
+	transition: all .2s ease;
+
+}
+
+p:hover{
+	background-color: gray;
+	color: white;
+	border-radius: 20px; 
+	cursor: pointer;
+}
+
+p:active{
+	box-shadow: 0 0 10px gray;
+}
+
+.res{
+	border: 1px solid black;
+	border-radius: 10px; 
+	background-color: lightgray;
+	height: 50px;
+	width: 70%;
+	margin: auto;
+	margin-top: 10%;
+	padding: 10px;
+}
+
+.calc-area{
+	height: 25%;
+	width: 45%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10%;
+	box-shadow: 5px 3px 10px black;
+	background-color: #c3b9b94d
+
+}
+
+body{
+	background-color: currentColor;
+}

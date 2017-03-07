@@ -3,31 +3,47 @@
 <head>
 	<title>Calculator</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="site.css">
 </head>
 <body>
 
 <div class="container">
-	 <div class="calc">
-	 	<p class="dig 1">1</p>
-	 	<p class="dig 2">2</p>
-	 	<p class="dig 3">3</p>
-	 	<p class="dig 4">4</p>
-	 	<p class="dig 5">5</p>
-	 	<p class="dig 6">6</p>
-	 	<p class="dig 7">7</p>
-	 	<p class="dig 8">8</p>
-	 	<p class="dig 9">9</p>
-	 	<p class="dig 0">0</p>
-	 	<p class="op p">+</p>
-	 	<p class="op m">-</p>
-	 	<p class="dig mul">*</p>
-	 	<p class="dig div">/</p>
-	 	<p class="op e">=</p>
-	 	<p class="ac">AC</p>
 
 
-	 	<div class="res" id="res"></div>
+<div class="calc-area">
+	<div class="res text-right" id="res"></div>
+
+	 <div class="calc text-center">
+
+	 	<div class="row">
+		 	<p class="dig 1 col-xs-3">1</p>
+		 	<p class="dig 2 col-xs-3">2</p>
+		 	<p class="dig 3 col-xs-3">3</p>
+		 	<p class="op p col-xs-3">+</p>
+	 	</div>
+
+	 	<div class="row">
+	 	<p class="dig 4 col-xs-3">4</p>
+	 	<p class="dig 5 col-xs-3">5</p>
+	 	<p class="dig 6 col-xs-3">6</p>
+	 	<p class="op m col-xs-3">-</p>
+	 	</div>
+
+	 	<div class="row">
+	 	<p class="dig 7 col-xs-3">7</p>
+	 	<p class="dig 8 col-xs-3">8</p>
+	 	<p class="dig 9 col-xs-3">9</p>
+	 	<p class="dig mul col-xs-3">*</p>
+	 	</div>
+
+	 	<div class="row">
+	 	<p class="dig 0 col-xs-3">0</p>
+	  	<p class="dig div col-xs-3">/</p>
+	 	<p class="op e col-xs-3">=</p>
+	 	<p class="ac col-xs-3">AC</p>	 	
 	 </div>
+
+	</div>
 </div>
  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
  <script type="text/javascript" src="site.js"></script>
