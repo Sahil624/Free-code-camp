@@ -100,7 +100,7 @@ function setBackground(data){
 		imageUrl="https://s-media-cache-ak0.pinimg.com/736x/a4/09/5b/a4095b6e6411af7c984cc6f96998c27d.jpg"
 	}
 
-	else if (data.weather[0]['main'] == 'Drizzle') {
+	else if (data.weather[0]['main'] == 'Rain') {
 		imageUrl = "https://allyeaglesci.files.wordpress.com/2013/09/ws_partly_cloudy_1600x1200.jpg";
 	}	
 

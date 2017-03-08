@@ -1,0 +1,54 @@
+.show-time{
+	font-size: 4em;
+	text-align: center;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 150px;
+	border: 1px solid white;
+	color: green;
+	transition: .5s all ease;
+}
+
+.unit{
+	padding: 30px;
+	margin: auto;
+}
+
+.buttons{
+	margin-top: 7%;
+}
+
+h3,h2{
+	text-align: center;
+	margin-left: 20%;
+	height: 40px;
+	width: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	font-size: 2.5em;
+	padding: 0px; 
+	transition: all .2s ease;
+}
+
+h3:hover , h2:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+.set{
+	margin: auto;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+
+h3:active , h2:active{
+	box-shadow: 0 0 20px white;
+	transform: translateY(2px);
+}
+
+body{
+	background-color: black;
+	color: white;
+}
