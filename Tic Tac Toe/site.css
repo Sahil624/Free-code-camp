@@ -1,0 +1,31 @@
+.row{
+	margin-top: 10%;
+}
+
+.game{
+	background-color: gray;
+	height: 600px;
+}
+
+body{
+	background-color: black;
+}
+
+.text-primary{
+	color: black;
+}
+
+.sym{
+	height: 50px;
+	font-size: 3em;
+	transition: .2s all ease;
+	cursor: pointer;
+}
+
+.sym:active .game{
+	box-shadow: 0 0 10px darkgray;
+}
+
+.sym:hover{
+	font-size: 5em;
+}
