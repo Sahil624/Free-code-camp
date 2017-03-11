@@ -1,0 +1,27 @@
+.sq{
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+}
+
+.red{
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.game{
+	margin: auto;
+	margin-top: 100px;
+	margin-left: 200px;
+}
