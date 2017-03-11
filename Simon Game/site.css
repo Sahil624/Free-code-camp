@@ -1,7 +1,8 @@
 .sq{
 	height: 100px;
 	width: 100px;
-	margin: 10px;
+	margin: 50px;
+	border-radius: 50%;
 }
 
 .red{
@@ -22,6 +23,27 @@
 
 .game{
 	margin: auto;
-	margin-top: 100px;
-	margin-left: 200px;
+	margin-left: 25%; 
+}
+
+.brighten{
+	opacity: .5;
+}
+
+.hover{
+	box-shadow: 0 0 20px white;
+	opacity: .7;
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+button{
+	margin: auto;
 }
