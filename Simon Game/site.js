@@ -8,12 +8,12 @@ $(document).ready(function(){
 	var c=0;
 	var strict = false;
 
-	sound={
-    so1: new Audio('https://s3.amazonaws.com/freecodecamp/simonSound1.mp3'), 
-    so2: new Audio('https://s3.amazonaws.com/freecodecamp/simonSound2.mp3'), 
-    so3: new Audio('https://s3.amazonaws.com/freecodecamp/simonSound3.mp3'), 
-    so4: new Audio('https://s3.amazonaws.com/freecodecamp/simonSound4.mp3')
-  }
+	
+    var so1 = new Audio(); 
+    so1.src = 'https://s3.amazonaws.com/freecodecamp/simonSound1.mp3';
+    var so2 = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound2.mp3'); 
+    var so3 = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound3.mp3'); 
+    var so4 = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound4.mp3');
 
   	$('.strict').click(function(){
   		if (strict){
@@ -127,7 +127,7 @@ $(document).ready(function(){
 
 	function playGame(field) {
 	  $('.'+field).addClass('hover');
-	  sound['so'+field];
+	 // so1.play();
 	  setTimeout(function(){
 	      $('.'+field).removeClass('hover');
 	  }, 500);
