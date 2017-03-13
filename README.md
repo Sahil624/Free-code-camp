@@ -14,6 +14,7 @@ Projects included are :-
 <li>Wiki Reader</li>
 <li>PomoDoro Clock</li>
 <li>Tic Tac Toe game</li>
+<li>Simon Game</li>
 </ol>
 More Comming
 
