@@ -19,6 +19,6 @@ Projects included are :-
 More Comming
 
 ##Projects are also avilable at My <a href="http://codepen.io/Sahil624">Code Pen</a>
-My <a href="http://freecodecamp.com/Sahil624">Camper Profile</a>
+My <a href="https://www.freecodecamp.org/sahil624">Camper Profile</a>
 
 ##Stay Connected
